@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brahmagupta</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <input id="input" type="text" placeholder="Enter the Expression">
+        <div id="buttons">
+            <div class="btn-row">
+                <button class="btn" onclick="clearInput()">C</button>
+                <button class="btn" onclick="addChar('%')">%</button>
+                <button class="btn" onclick="backspace()">&#9003;</button>
+                <button class="btn" onclick="addChar('/')">&divide;</button>
+            </div>
+            <div class="btn-row">
+                <button class="btn" onclick="addChar('7')">7</button>
+                <button class="btn" onclick="addChar('8')">8</button>
+                <button class="btn" onclick="addChar('9')">9</button>
+                <button class="btn" onclick="addChar('*')">&times;</button>
+            </div>
+            <div class="btn-row">
+                <button class="btn" onclick="addChar('4')">4</button>
+                <button class="btn" onclick="addChar('5')">5</button>
+                <button class="btn" onclick="addChar('6')">6</button>
+                <button class="btn" onclick="addChar('+')">&plus;</button>
+            </div>
+            <div class="btn-row">
+                <button class="btn" onclick="addChar('1')">1</button>
+                <button class="btn" onclick="addChar('2')">2</button>
+                <button class="btn" onclick="addChar('3')">3</button>
+                <button class="btn" onclick="addChar('-')">&minus;</button>
+            </div>
+            <div class="btn-row">
+                <button class="btn" onclick="addChar('0')">0</button>
+                <button class="btn" onclick="addChar('.')">.</button>
+                <button class="btn" onclick="addChar('^')">^</button>
+                <button class="btn" onclick="calculateResult()">=</button>
+            </div>
+        </div>
+    </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/11.8.0/math.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
