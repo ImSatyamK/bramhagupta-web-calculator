@@ -32,7 +32,7 @@ bramhagupta-web-calculator/
 
 ---
 ## 🔗 Live Demo
-  Try it online: [Brahmagupta Calculator](bramhagupta-a-web-calculator.netlify.app)
+  Try it online: [Brahmagupta Calculator](https://bramhagupta-a-web-calculator.netlify.app)
 
 ## ⚙️ How to Run
 1. Clone the repository:
