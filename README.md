@@ -32,7 +32,7 @@ bramhagupta-web-calculator/
 
 ---
 ## 🔗 Live Demo
-  Try it online: coming soon  
+  Try it online: [Brahmagupta Calculator](https://your-username.github.io/bramhagupta-web-calculator/))
 
 ## ⚙️ How to Run
 1. Clone the repository:
