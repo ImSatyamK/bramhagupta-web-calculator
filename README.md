@@ -54,7 +54,7 @@ bramhagupta-web-calculator/
 * Dark/light theme toggle
 * History of previous calculations
 * Responsive layout for desktop and mobile
-* Minor Styling Changes
+* Minor styling changes
 
 ---
 
